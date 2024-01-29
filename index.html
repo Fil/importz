@@ -1,9 +1,29 @@
-<div id="foobar"></div>
+<p id="foobar0"></p>
+
+<p id="foobar1"></p>
+
+<p id="foobar2"></p>
 
 <script type="module">
 
-  import foobar from "./foo%20bar.js";
+  import foobar0 from "./foo bar.js";
 
-  document.getElementById("foobar").innerHTML = `foobar=${foobar}`;
+  document.getElementById("foobar0").innerHTML = `foo bar=${foobar0}`;
+
+</script>
+
+<script type="module">
+
+  import foobar1 from "./foo%20bar.js";
+
+  document.getElementById("foobar1").innerHTML = `foo%20bar=${foobar1}`;
+
+</script>
+
+<script type="module">
+
+  import foobar2 from "./foo%2520bar.js";
+
+  document.getElementById("foobar2").innerHTML = `foo%2520bar=${foobar2}`;
 
 </script>
