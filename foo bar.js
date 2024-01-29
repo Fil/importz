@@ -1,1 +1,1 @@
-export default 42;
+export default "using foo[space]bar.js";
