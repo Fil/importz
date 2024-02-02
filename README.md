@@ -43,3 +43,4 @@ interestingly, bun is NOT following this and uses strict file names:
 }
 ```
 
+This bun issue is tracked at https://github.com/oven-sh/bun/issues/8640
